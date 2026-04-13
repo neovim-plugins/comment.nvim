@@ -10,9 +10,9 @@ git fetch upstream
 new_commit=$(git rev-parse upstream)
 
 if [ "$old_commit" = "$new_commit" ]; then
-  echo "No updates available"
+    echo "No updates available"
 
-  exit
+    exit
 fi
 
 git switch update-readme
