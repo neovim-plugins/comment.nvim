@@ -21,7 +21,7 @@ git merge --no-edit upstream/master
 git switch fix/patch-treesitter
 git merge --no-edit upstream/master
 
-git switch master
+git switch main
 git reset --hard $(git rev-list --max-parents=0 HEAD)
 git merge --no-edit upstream/master
 
