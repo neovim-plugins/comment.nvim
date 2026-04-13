@@ -2,14 +2,14 @@
     "name": "@softvisio/comment.nvim",
     "private": true,
     "description": "Fork of numtostr/comment.nvim",
-    "homepage": "https://github.com/softvisio/Comment.nvim",
+    "homepage": "https://github.com/softvisio/comment.nvim",
     "bugs": {
-        "url": "https://github.com/softvisio/Comment.nvim/issues",
+        "url": "https://github.com/softvisio/comment.nvim/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/softvisio/Comment.nvim.git"
+        "url": "git+https://github.com/softvisio/comment.nvim.git"
     },
     "license": "Proprietary Software",
     "author": "root <root@softvisio.net>"
