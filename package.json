@@ -1,5 +1,5 @@
 {
-    "name": "@softvisio/comment.nvim",
+    "name": "@neovim-plugins/comment.nvim",
     "private": true,
     "description": "Fork of numtostr/comment.nvim",
     "homepage": "https://github.com/softvisio/comment.nvim",
