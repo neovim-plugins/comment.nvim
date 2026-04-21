@@ -15,7 +15,7 @@ if [ "$old_commit" = "$new_commit" ]; then
     exit
 fi
 
-git switch update-readme
+git switch update-metadata
 git merge --no-edit upstream/master
 
 git switch fix/patch-treesitter
@@ -25,8 +25,8 @@ git switch main
 git reset --hard $(git rev-list --max-parents=0 HEAD)
 git merge --no-edit upstream/master
 
-# git merge --no-edit update-readme fix/patch-treesitter
-git merge --no-edit update-readme
+# git merge --no-edit update-metadata fix/patch-treesitter
+git merge --no-edit update-metadata
 git merge --no-edit fix/patch-treesitter
 
 git push --all --force
