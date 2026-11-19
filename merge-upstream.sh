@@ -29,4 +29,10 @@ git merge --no-edit upstream/master
 git merge --no-edit update-metadata
 git merge --no-edit fix/patch-treesitter
 
+# remove .github if it is tracked
+if [ -n "$(git ls-files .github)" ]; then
+    git rm -r -q .github
+    git commit -m "chore: remove .github"
+fi
+
 git push --all --force
